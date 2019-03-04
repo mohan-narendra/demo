@@ -1,6 +1,10 @@
 spring-boot app which determines if two cities are connected. Two cities are considered connected if there’s a series of roads that can be traveled from one city to another. 
 Note: I have implemented graph traversal using Breadth First method. I have tested code with limited set of data .
 
+I use the Adjacency List to store the graph representation using Map in java. 
+Added the junit test cases to test the routes OR  we can test direcly from /connected endpoint when project started as a springbbot project .
+I added the swagger documentation file to in project root folder to test the /connected  endpoint
+
 Coding exercise Write a program in Java which determines if two cities are connected.Two cities are considered connected if there’s a series of roads that can be traveled from one city to another. List of roads is available in a file.File contains a list of city pairs (one pair per line, comma separated), which indicates that there’s a road between those cities. 
 
 It will be deployed as a spring-boot app and expose one endpoint: 
@@ -23,7 +27,6 @@ Should return yes
 http://localhost:8080/connected?origin=Philadelphia&destination=Albany
 Should return no
 
-I added the swagger documentation file to in project root folder to test the /connected  endpoint
 
 Thanks,
 Narendra 
