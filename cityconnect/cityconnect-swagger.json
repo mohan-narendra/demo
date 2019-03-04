@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "2019-03-01T08:12:05Z",
+    "version": "2019-03-04T08:12:05Z",
     "title": "CityAPI"
   },
   "host": "http://localhost:8080",

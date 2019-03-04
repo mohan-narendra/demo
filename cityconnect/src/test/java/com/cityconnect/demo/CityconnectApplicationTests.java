@@ -30,7 +30,7 @@ public class CityconnectApplicationTests {
 	public void isRouteExists() {
 
 		LOGGER.info("Boston to is  Newark RouteExists::->" + cityConnectService.isRouteExists("Boston", "Newark"));
-		//Assert.assertTrue(cityConnectService.isRouteExists("Boston", "Newark"));
+		Assert.assertTrue(cityConnectService.isRouteExists("Boston", "Newark"));
 		
 		LOGGER.info("Newark to is  Boston RouteExists::->" + cityConnectService.isRouteExists("Newark", "Boston"));
 		//Assert.assertTrue(cityConnectService.isRouteExists("Newark", "Boston"));
