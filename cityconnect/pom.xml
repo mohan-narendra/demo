@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cityconnect</groupId>
-	<artifactId>route</artifactId>
+	<artifactId>cityroute</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cityconnect</name>
 	<description>Demo project for cityconnect</description>
