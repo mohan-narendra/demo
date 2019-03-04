@@ -23,4 +23,7 @@ Should return yes
 http://localhost:8080/connected?origin=Philadelphia&destination=Albany
 Should return no
 
-I added the swagger file to in proect rool folder to test the /connected  endpoint .
+I added the swagger documentation file to in project root folder to test the /connected  endpoint
+
+Thanks,
+Narendra 
