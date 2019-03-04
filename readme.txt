@@ -22,3 +22,5 @@ http://localhost:8080/connected?origin=Boston&destination=Philadelphia
 Should return yes
 http://localhost:8080/connected?origin=Philadelphia&destination=Albany
 Should return no
+
+I added the swagger file to in proect rool folder to test the /connected  endpoint .
